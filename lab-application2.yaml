@@ -55,7 +55,7 @@ Resources:
                 ensureRunning: true
     Properties:
       InstanceType: t3.micro
-      ImageId: ami-0c2d516f60d275525
+      ImageId: ami-092fad92d2406b043
       NetworkInterfaces:
         - GroupSet:
             - !Ref WebServerSecurityGroup
